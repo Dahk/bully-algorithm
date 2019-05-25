@@ -21,7 +21,8 @@ In order to run this program you must have installed the following dependencies:
 
 And of course an IBM Cloud account with access to IBM Cloud Functions and RabbitMQ services.
 
-*Note: pywren_ibm_cloud doesn't use the latest pika version.*
+*Note: pywren_ibm_cloud doesn't use the latest version of pika. Hence, some code might throw you warning messages
+if you have a newer version installed.*
 
 ---
 ## Explanation
@@ -45,8 +46,8 @@ one node has crashed or is not attending requests. Therefore, in the output of e
 that the correct result, the selected leader, is the n-1 worker.
 This small modification can be easily seen in the code as it is marked with comments. 
 
-*Also, if you wish to see the regular execution of the algorithm, you just have to delete 
-the section marked by the disclaimer comments (ctrl-f ‘disclaimer’).*
+***Also, if you wish to see the regular execution of the algorithm, you just have to remove 
+the section marked by the disclaimer comments (ctrl-f ‘Disclaimer’).***
 
 
 ## Authors
